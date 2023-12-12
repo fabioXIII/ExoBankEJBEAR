@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                                
+    
+    
+    
+    
+    
+    
+    <wb-module deploy-name="ExoBankEJBEAR">
+                                                                
+        
+        
+        
+        
+        
+        
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+                                                                
+        
+        
+        
+        
+        
+        
+        <dependent-module archiveName="ExoBankEJB.jar" deploy-path="/" handle="module:/resource/ExoBankEJB/ExoBankEJB">
+                                                                                                
+            
+            
+            
+            
+            
+            
+            <dependent-object/>
+                                                                                                
+            
+            
+            
+            
+            
+            
+            <dependency-type>uses</dependency-type>
+                                                                                            
+        
+        
+        
+        
+        
+        
+        </dependent-module>
+                                                                
+        
+        
+        
+        
+        
+        
+        <dependent-module archiveName="ExoBankModel.jar" deploy-path="/lib" handle="module:/resource/ExoBankModel/ExoBankModel">
+                                                                                                
+            
+            
+            
+            
+            
+            
+            <dependency-type>uses</dependency-type>
+                                                                                            
+        
+        
+        
+        
+        
+        
+        </dependent-module>
+                                                                
+        
+        
+        
+        
+        
+        
+        <dependent-module archiveName="ExoBankRest.war" deploy-path="/" handle="module:/resource/ExoBankRest/ExoBankRest">
+                                                                                                
+            
+            
+            
+            
+            
+            
+            <dependent-object/>
+                                                                                                
+            
+            
+            
+            
+            
+            
+            <dependency-type>uses</dependency-type>
+                                                                                            
+        
+        
+        
+        
+        
+        
+        </dependent-module>
+                                                                
+        
+        
+        
+        
+        
+        
+        <dependent-module archiveName="mybatis-3.5.13.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/exolab/Desktop/Jar/mybatis-3.5.13.jar">
+                                                                                                
+            
+            
+            
+            
+            
+            
+            <dependency-type>uses</dependency-type>
+                                                                                            
+        
+        
+        
+        
+        
+        
+        </dependent-module>
+                                                
+        
+        
+        
+        
+        <dependent-module archiveName="ojdbc6-11.2.0.4 (2).jar" deploy-path="/" handle="module:/classpath/lib/C:/Users/exolab/Documents/Java/ojdbc6-11.2.0.4 (2).jar">
+                                                                        
+            
+            
+            
+            
+            <dependent-object/>
+                                                                        
+            
+            
+            
+            
+            <dependency-type>uses</dependency-type>
+                                                                    
+        
+        
+        
+        
+        </dependent-module>
+                                
+        
+        
+        <dependent-module archiveName="jjwt-impl-0.11.2.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/exolab/Desktop/RaccoltaJar/jjwt-impl-0.11.2.jar">
+                                                
+            
+            
+            <dependency-type>uses</dependency-type>
+                                            
+        
+        
+        </dependent-module>
+                                
+        
+        
+        <dependent-module archiveName="jjwt-api-0.11.2.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/exolab/Desktop/RaccoltaJar/jjwt-api-0.11.2.jar">
+                                                
+            
+            
+            <dependency-type>uses</dependency-type>
+                                            
+        
+        
+        </dependent-module>
+                                
+        
+        
+        <dependent-module archiveName="jjwt-jackson-0.11.2.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/exolab/Desktop/RaccoltaJar/jjwt-jackson-0.11.2.jar">
+                                                
+            
+            
+            <dependency-type>uses</dependency-type>
+                                            
+        
+        
+        </dependent-module>
+                        
+        
+        <dependent-module archiveName="openpdf-1.1.0.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/exolab/Desktop/RaccoltaJar/openpdf-1.1.0.jar">
+                                    
+            
+            <dependency-type>uses</dependency-type>
+                                
+        
+        </dependent-module>
+                
+        <dependent-module archiveName="apache-poi-ooxml.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/exolab/Desktop/RaccoltaJar/apache-poi-ooxml.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="xmlbeans-3.1.0.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/exolab/Desktop/RaccoltaJar/xmlbeans-3.1.0.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="poi-ooxml-schemas-3.15.0.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/exolab/Desktop/RaccoltaJar/poi-ooxml-schemas-3.15.0.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="poi-5.2.3.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/exolab/Desktop/RaccoltaJar/poi-5.2.3.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+        <dependent-module archiveName="commons-codec-1.15.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/exolab/Desktop/RaccoltaJar/commons-codec-1.15.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                                                            
+    
+    
+    
+    
+    
+    
+    </wb-module>
+                            
+
+
+
+
+
+
+</project-modules>
